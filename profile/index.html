@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head class="container">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Manoj Resume</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#CAREER OBJECTIVE">CAREER OBJECTIVE</a></li>
+            <li><a href="#EDUCATION">EDUCATION</a></li>
+            <li><a href="#CERTIFICATE">CERTIFICATE</a></li>
+            <li><a href="#TECHNICAL SKILLS">TECHNICAL SKILLS</a></li>
+            <li><a href="#RESUME">RESUME</a></li>
+           
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="name1">
+            <div class="name2">
+                <img src="Screenshot 2025-03-19 133704.png" alt="Profile Image" class="profile-image">
+                <div class="name3">
+                <h1 style="font-size: 50px;">MANOJ P</h1>
+                <p class="contact" style="margin-left: 150px; font-size: 30px; color: #C4a484;"> Software developer </p>
+                <p class="contact" style="margin-left: 150px; font-size: 20px;"> <i class="glyphicon glyphicon-envelope"></i> Email: manojparthiban02@gmail.com </p>
+                <p class="contact" style="margin-left: 150px; font-size: 20px;"><i class="glyphicon glyphicon-user"></i> Phone: 90872 84706</p>
+                <p class="contact" style="margin-left: 150px; font-size: 20px;"><i class="fa fa-home"></i> Address: 38, Vellakulam St., Kodavasal - 612601</p>
+               </div>
+        </div>
+      </div>
+        <div class="section">
+            <h2 align="center" style="font-size: 40px; color: #C4a484;" id="CAREER OBJECTIVE">CAREER OBJECTIVE</h2>
+            <p>Motivated AI & ML student with a passion for Python. Eager to apply classroom learning to real-world scenarios in an internship role. Seeking hands-on experience in Python. Dedicated to learning, growth, and making a meaningful impact.</p>
+        </div>
+
+        <div class="section">
+            <h2 align="center" style="font-size: 40px; color: #C4a484;" id="EDUCATION" >EDUCATION</h2>
+            <ul>
+                <li><strong>B.Sc (AI & ML)</strong> - Swami Dayananda College of Arts & Science (Bharathidasan University), GPA: 8.3/10 (2025 - up to 3rd sem)</li>
+                <li><strong>HSC</strong> - Sri Mahadeva Guruji Vidhyalaya Matriculation Higher Secondary School, Kodavasal, Percentage: 84% (2022-2023)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 align="center" style="font-size: 40px; color: #C4a484;" id="CERTIFICATE">CERTIFICATE</h2>
+            <ul>
+                <li>Internship Program in Python Development - SwaaS Systems Pvt Ltd (2024)</li>
+                <li>Internship in Data Manipulation and Machine Learning - IBM (2024)</li>
+                <li>Internship Training at Prag Robotics Pvt. Ltd. (AICTE Collaboration) - June 22, 2024 - September 13, 2024</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 align="center" style="font-size: 40px; color: #C4a484;" id="TECHNICAL SKILLS">TECHNICAL SKILLS</h2>
+            <ul>
+                <li>Python, R</li>
+                <li>C, C++</li>
+                <li>Frontend Development (HTML, CSS)</li>
+                <li>Design Tools (Canva, MS Word)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 align="center" style="font-size: 40px; color: #C4a484;">LANGUAGE</h2>
+            <ul>
+                <li>English - Intermediate</li>
+                <li>Tamil - Fluent</li>
+            </ul>
+        </div>
+        <center class="section" >
+            <h2 id="RESUME">Resume</h2>
+            <a href="MANOJ Resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        <footer>
+            <p>&copy; 2025 PRM SOLUTION</p>
+        </footer>
+    </div>
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
